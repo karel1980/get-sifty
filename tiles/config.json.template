@@ -1,0 +1,35 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    }
+  },
+  "styles": {
+    "test-style": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [-40, 0, 40, 70]
+      }
+    },
+    "dark": {
+      "style": "dark/style.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [-40, 0, 40, 70]
+      }
+    }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "/data/london.mbtiles"
+    }
+  }
+}
