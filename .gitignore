@@ -1,1 +1,6 @@
 tiles/config.json
+tiles/*.mbtiles
+static-maps/*.png
+query/*.png
+result/*.png
+
